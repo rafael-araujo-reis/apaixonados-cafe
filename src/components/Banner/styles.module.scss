@@ -1,0 +1,35 @@
+.container {
+  background-image: url("../../assets/images/coffee.jpg");
+  background-position: center;
+  background-size: cover;
+
+  min-height: calc(100vh - 11rem);
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+
+  gap: 5rem;
+
+  h1 {
+    font-size: 12rem;
+    text-transform: uppercase;
+
+    color: var(--brown-200);
+    -webkit-text-stroke: 0.5rem var(--brown-900);
+  }
+
+  p {
+    font-size: 3.5rem;
+    font-weight: 600;
+  }
+
+  p,
+  h2 {
+    color: var(--white-100);
+    -webkit-text-stroke: 0.1rem var(--brown-900);
+    text-shadow: 0 0 0.5rem var(--brown-900);
+  }
+}

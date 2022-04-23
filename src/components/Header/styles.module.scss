@@ -1,0 +1,22 @@
+.container {
+  background-color: var(--green-600);
+
+  padding: 3rem;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  .title {
+    font-family: "Dancing Script", cursive;
+    color: var(--white-100);
+
+    text-transform: lowercase;
+
+    font-size: 4rem;
+
+    span {
+      color: var(--brown-200);
+    }
+  }
+}
